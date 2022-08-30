@@ -2,9 +2,12 @@
 
 To see it [Live](https://todsak1.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe03c0b5-244d-422f-a8a1-5c6197f59ecd/deploy-status)](https://todsak1.netlify.app/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
 
 ## Code scaffolding
 
