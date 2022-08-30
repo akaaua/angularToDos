@@ -1,6 +1,6 @@
 # Todo
 
-To see it [Live] (https://todsak1.netlify.app/)
+To see it [Live](https://todsak1.netlify.app/)
 
 ## Development server
 
