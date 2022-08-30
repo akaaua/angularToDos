@@ -106,8 +106,8 @@ input {
 
 small {
   text-align: center;
-  margin: 0px;
-  padding-top: 10px;
+  margin: 5px;
+  padding: 5px;
   list-style: none;
   background: #fff;
   border-radius: 10px;
