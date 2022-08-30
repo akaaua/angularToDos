@@ -3,11 +3,8 @@
     <p class="text-center" *ngIf="todos.length == 0"><small>Não tem nenhuma tarefa hoje!</small></p>
   <li *ngFor="let todo of todos">
     {{todo.title}}
-    |
     <button *ngIf="!todo.done" (click)="markAsDone(todo)"><i class="far fa-check-circle"></i></button>
-    |
     <button *ngIf="todo.done" (click)="markAsUndone(todo)"><i class="fas fa-check-circle"></i></button>
-    |
     <button (click)="remove(todo)"><i class="far fa-trash-alt"></i></button>
   </li>
 </ul>
