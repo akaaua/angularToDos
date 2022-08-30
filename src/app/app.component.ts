@@ -7,6 +7,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   public mode: String = 'list';
   public todos: Todo[] = [];
@@ -65,7 +66,7 @@ export class AppComponent {
 
   load(){
 
-    this.todos = JSON.parse(localStorage.getItem('todos') || '{}')
+    this.todos = JSON.parse(localStorage.getItem('todos') || '[]')
     // const  data = localStorage.getItem('todos');
     // this.todos = JSON.parse(data);
   }

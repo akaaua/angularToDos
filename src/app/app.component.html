@@ -1,7 +1,7 @@
 <h1 class="title animate__animated animate__jackInTheBox">{{ title }}</h1>
 <ul class="animate__animated animate__flipInX" *ngIf="mode=='list'">
     <p class="text-center" *ngIf="todos.length == 0"><small>Não tem nenhuma tarefa hoje!</small></p>
-  <li *ngFor="let todo of todos ">
+  <li *ngFor="let todo of todos">
     {{todo.title}}
     |
     <button *ngIf="!todo.done" (click)="markAsDone(todo)"><i class="far fa-check-circle"></i></button>
