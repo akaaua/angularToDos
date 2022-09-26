@@ -1,0 +1,14 @@
+{
+  "title" : {
+    "title": "My Tasks",
+    "top": "to-do"
+  },
+
+  "messages" : {
+    "noTaskMessage" : "No tasks today",
+    "newTask" : "New Task",
+    "cancel" : "Cancel",
+    "save" : "Save",
+    "fieldLenght" : "This field must have between 3 and 60 characters"
+  }
+}

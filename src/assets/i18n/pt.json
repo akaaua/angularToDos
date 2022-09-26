@@ -1,0 +1,16 @@
+{
+  "title" : {
+    "title": "Minhas Tarefas",
+    "top": "Tarefas"
+  },
+
+  "messages" : {
+    "noTaskMessage" : "No tasks today",
+    "newTask" : "Nova Tarefa",
+    "cancel" : "cancelar",
+    "save" : "Salvar",
+    "fieldLenght" : "Este campo deve conter entre 3 e 60 caracteres"
+  }
+}
+
+

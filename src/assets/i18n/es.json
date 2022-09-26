@@ -1,0 +1,14 @@
+{
+  "title" : {
+    "title": "Mis Tareas",
+    "top": "Que hacer"
+  },
+
+  "messages" : {
+    "noTaskMessage" : "No tasks today",
+    "newTask" : "Nueva tarea",
+    "cancel"  : "cancelar",
+    "save" : "ahorrar",
+    "fieldLenght" : "Este campo debe tener entre 3 y 60 caracteres"
+  }
+}

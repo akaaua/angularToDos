@@ -1,6 +1,7 @@
 import { Todo } from './../models/todo.model';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TranslocoService } from '@ngneat/transloco';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ export class AppComponent {
 
 
 
-  constructor(private fb: FormBuilder) {
+
+  constructor(private fb: FormBuilder, public translateService: TranslocoService) {
     this.form = this.fb.group({
      title: ['', Validators.compose([
         Validators.minLength(3),
@@ -28,7 +30,19 @@ export class AppComponent {
     this.load();
   }
 
-  add (){
+ setEn(){
+  this.translateService.setActiveLang('en')
+ }
+
+ setEs(){
+  this.translateService.setActiveLang('es')
+ }
+
+ setPt(){
+  this.translateService.setActiveLang('pt')
+ }
+
+ add (){
     const title = this.form.controls['title'].value;
     const id = this.todos.length + 1;
     this.todos.push(new Todo(id, title, false));
